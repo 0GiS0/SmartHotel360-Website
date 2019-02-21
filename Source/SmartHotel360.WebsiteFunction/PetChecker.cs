@@ -93,8 +93,8 @@ namespace SmartHotel360.WebsiteFunction
 
         private static async Task UpsertDocument(dynamic doc, ILogger log)
         {
-            var endpoint = await GetSecret("cosmos_uri");
-            var auth = await GetSecret("cosmos_key");
+            var endpoint = GetSecret("cosmos_uri");
+            var auth = GetSecret("cosmos_key");
 
             var client = new DocumentClient(new Uri(endpoint), auth);
             var dbName = "pets";
@@ -104,7 +104,7 @@ namespace SmartHotel360.WebsiteFunction
             log.LogInformation($"--- CosmosDb document updated.");
         }
 
-        private static async Task<string> GetSecret(string secretName)
+        private static string GetSecret(string secretName)
         {
 
             return Environment.GetEnvironmentVariable(secretName);
@@ -116,9 +116,9 @@ namespace SmartHotel360.WebsiteFunction
             {
                 log.LogInformation("--- Creating VisionApi client and analyzing image");
 
-                var key = await GetSecret("MicrosoftVisionApiKey");
-                var endpoint = await GetSecret("MicrosoftVisionApiEndpoint");
-                var numTags = await GetSecret("MicrosoftVisionNumTags");
+                var key = GetSecret("MicrosoftVisionApiKey");
+                var endpoint = GetSecret("MicrosoftVisionApiEndpoint");
+                var numTags = GetSecret("MicrosoftVisionNumTags");
 
                 // Specify the features to return
                 var features = new List<VisualFeatureTypes>() { VisualFeatureTypes.Description };

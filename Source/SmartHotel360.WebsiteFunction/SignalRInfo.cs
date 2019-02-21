@@ -11,14 +11,12 @@ namespace SmartHotel360.WebsiteFunction
     public static class SignalRInfo
     {
         [FunctionName("SignalRInfo")]
-        public static async Task<IActionResult> Run(
+        public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
             [SignalRConnectionInfo(HubName = "petcheckin")] SignalRConnectionInfo info,
             ILogger log)
         {
-            return info != null
-                ? (ActionResult)new OkObjectResult(info)
-                : new NotFoundObjectResult("Failed to load SignalR Info.");
+            return info != null ? (ActionResult)new OkObjectResult(info) : new NotFoundObjectResult("Failed to load SignalR Info.");
         }
     }
 }

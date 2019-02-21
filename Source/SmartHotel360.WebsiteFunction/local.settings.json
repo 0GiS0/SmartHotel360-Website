@@ -1,15 +1,15 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=webstoragehnefnb72hqzrk;AccountKey=1madkg2fgzGDUqQs1vJglopD47E0oc81OfnNipaqGsrLDV0MwOxRMfg77aYQPkd+UI8MkLkHYqDhmOat99OVwA==;EndpointSuffix=core.windows.net",
-    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=webstoragehnefnb72hqzrk;AccountKey=1madkg2fgzGDUqQs1vJglopD47E0oc81OfnNipaqGsrLDV0MwOxRMfg77aYQPkd+UI8MkLkHYqDhmOat99OVwA==;EndpointSuffix=core.windows.net",
-    "cosmos_uri": "https://websitecosmosdbhnefnb72hqzrk.documents.azure.com:443/",
-    "cosmos_key": "oteSyNFggBwRuDsxwBQKL3PdTa2uAa2wUcbXW0ujNkKsNzK6cHooOAw51HqDP3OtNwHz96bPyQAmcLhj3qQ70A==",
-    "constr": "AccountEndpoint=https://websitecosmosdbhnefnb72hqzrk.documents.azure.com:443/;AccountKey=oteSyNFggBwRuDsxwBQKL3PdTa2uAa2wUcbXW0ujNkKsNzK6cHooOAw51HqDP3OtNwHz96bPyQAmcLhj3qQ70A==;",
-    "MicrosoftVisionApiKey": "b7191bb505d14c988b43be474a3710b0",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=smarthotel360dev;AccountKey=nCz1kjuxZUi5Va1IuOYbLo6Q2UqTII9hxaJzJyQlKf8s4AeUjxRu9FPlUi/kCepJNy1wyW10azy+I+nqVfJshw==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=smarthotel360dev;AccountKey=nCz1kjuxZUi5Va1IuOYbLo6Q2UqTII9hxaJzJyQlKf8s4AeUjxRu9FPlUi/kCepJNy1wyW10azy+I+nqVfJshw==;EndpointSuffix=core.windows.net",
+    "cosmos_uri": "https://smarthotel360dev.documents.azure.com:443/",
+    "cosmos_key": "5wtsi36ZxSdk0DRZaPkwmnBbFb0EK3A6chbOVZ8iANFMIBdMCQ8Wwfxd6niAFvYoc34mMlVl7pbHkwGXctVCyQ==",
+    "constr": "AccountEndpoint=https://smarthotel360dev.documents.azure.com:443/;AccountKey=5wtsi36ZxSdk0DRZaPkwmnBbFb0EK3A6chbOVZ8iANFMIBdMCQ8Wwfxd6niAFvYoc34mMlVl7pbHkwGXctVCyQ==;",
+    "MicrosoftVisionApiKey": "eff4404627c34cd29e855f80ee4de2fd",
     "MicrosoftVisionApiEndpoint": "https://northeurope.api.cognitive.microsoft.com/",
     "MicrosoftVisionNumTags": "10",
-    "AzureSignalRConnectionString": "Endpoint=https://websignalrhnefnb72hqzrk.service.signalr.net;AccessKey=oBtxQXFzsHWlfXqWI6aJyyuV8uXSQnR1AG5EW+fMFVA=;Version=1.0;",
+    "AzureSignalRConnectionString": "Endpoint=https://smarthotel360cloudready-dev.service.signalr.net;AccessKey=RVp3zAM7zXa1Z/VSV9DqAymkn19ckaN44IdTM4hTXEs=;Version=1.0;",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet"
   },
   "Host": {
