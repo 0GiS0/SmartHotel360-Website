@@ -1,15 +1,15 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=webstorageicgk52qy6vi2i;AccountKey=UYj2p87eUj1K5ImuaSGAYNsWImaPHYjV7OJFDQ6DoRWtPP2Lr3I2fC2Usopb+ETYk0xO+hg+PtgMep275pmkGw==;EndpointSuffix=core.windows.net",
-    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=webstorageicgk52qy6vi2i;AccountKey=UYj2p87eUj1K5ImuaSGAYNsWImaPHYjV7OJFDQ6DoRWtPP2Lr3I2fC2Usopb+ETYk0xO+hg+PtgMep275pmkGw==;EndpointSuffix=core.windows.net",
-    "cosmos_uri": "https://websitecosmosdbicgk52qy6vi2i.documents.azure.com:443/",
-    "cosmos_key": "tTrQYdsSN0WM5bNVdVPTnSaxhrtG9iz7GnXeiBAwlyYu3UXYRUhfznqcuo5RxfYeK7U52Iadhof7FwUBjAFA5Q==",
-    "constr": "AccountEndpoint=https://websitecosmosdbicgk52qy6vi2i.documents.azure.com:443/;AccountKey=tTrQYdsSN0WM5bNVdVPTnSaxhrtG9iz7GnXeiBAwlyYu3UXYRUhfznqcuo5RxfYeK7U52Iadhof7FwUBjAFA5Q==;",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=webstoragehnefnb72hqzrk;AccountKey=1madkg2fgzGDUqQs1vJglopD47E0oc81OfnNipaqGsrLDV0MwOxRMfg77aYQPkd+UI8MkLkHYqDhmOat99OVwA==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=webstoragehnefnb72hqzrk;AccountKey=1madkg2fgzGDUqQs1vJglopD47E0oc81OfnNipaqGsrLDV0MwOxRMfg77aYQPkd+UI8MkLkHYqDhmOat99OVwA==;EndpointSuffix=core.windows.net",
+    "cosmos_uri": "https://websitecosmosdbhnefnb72hqzrk.documents.azure.com:443/",
+    "cosmos_key": "oteSyNFggBwRuDsxwBQKL3PdTa2uAa2wUcbXW0ujNkKsNzK6cHooOAw51HqDP3OtNwHz96bPyQAmcLhj3qQ70A==",
+    "constr": "AccountEndpoint=https://websitecosmosdbhnefnb72hqzrk.documents.azure.com:443/;AccountKey=oteSyNFggBwRuDsxwBQKL3PdTa2uAa2wUcbXW0ujNkKsNzK6cHooOAw51HqDP3OtNwHz96bPyQAmcLhj3qQ70A==;",
     "MicrosoftVisionApiKey": "b7191bb505d14c988b43be474a3710b0",
     "MicrosoftVisionApiEndpoint": "https://northeurope.api.cognitive.microsoft.com/",
     "MicrosoftVisionNumTags": "10",
-    "AzureSignalRConnectionString": "Endpoint=https://websignalricgk52qy6vi2i.service.signalr.net;AccessKey=ZxlL/Yr6kmX23ftKzHT+POqq6F74iOh8AU4HTfRGFGU=;Version=1.0;",
+    "AzureSignalRConnectionString": "Endpoint=https://websignalrhnefnb72hqzrk.service.signalr.net;AccessKey=oBtxQXFzsHWlfXqWI6aJyyuV8uXSQnR1AG5EW+fMFVA=;Version=1.0;",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet"
   },
   "Host": {
