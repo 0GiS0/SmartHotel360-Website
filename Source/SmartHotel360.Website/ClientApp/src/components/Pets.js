@@ -54,7 +54,7 @@ class Pets extends Component {
             {this.props.isUploading ? <span className='sh-pets-smalltitle'>Uploading the image...</span> : <span></span>}
             {this.props.isThinking ? <span className='sh-pets-smalltitle'>Processing the image...</span> : <span></span>}
 
-            {this.props.approved === true ? <span className='sh-pets-smalltitle is-ok'>Your pet looks like a {this.props.message} and is accepted.</span> : <span></span>}
+            {this.props.approved === true ? <span className='sh-pets-smalltitle is-ok'>Your pet looks like {this.props.message} and is accepted.</span> : <span></span>}
             {this.props.approved === false ? <span className='sh-pets-smalltitle is-bad'>Sorry your pet seems to be {this.props.message} and we can't allow it.</span> : <span></span>}
 
             <input className='is-hidden' ref='nativeUpload' type='file' onChange={this.onFileChange} />
