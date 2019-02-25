@@ -137,13 +137,8 @@ namespace SmartHotel360.WebsiteFunction
                 }
 
                 var fetchedTags = result?.Description?.Tags.Take(tagsToFetch).ToArray() ?? new string[0];
-<<<<<<< HEAD
-                bool isAllowed = fetchedTags.Contains("dog");
-=======
-                //bool isAllowed = fetchedTags.Contains("dog");
-                bool isAllowed = fetchedTags.Contains("dog") || fetchedTags.Contains("cat");
 
->>>>>>> e3d19d1... fixing stuff
+                bool isAllowed = fetchedTags.Contains("dog") || fetchedTags.Contains("cat");
 
                 string message = result?.Description?.Captions.FirstOrDefault()?.Text;
                 return (isAllowed, message, fetchedTags);
